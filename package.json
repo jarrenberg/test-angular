@@ -10,7 +10,7 @@
     "build:href": "ng build --base-href ./",
     "delete:docs":"del docs",
     "copy:dist":"copyfiles dist/02-bases-angular/browser/* ./docs -f",
-    "github:upload":"git add . && git commit -m 'Desplegar en github pages' && git push",
+    "github:upload":"git add . && git commit -m \"Desplegar en github pages\" && git push",
     "build:github":"npm run build:href && npm run delete:docs && npm run copy:dist && npm run github:upload"
 
   },
